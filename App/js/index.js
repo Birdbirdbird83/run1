@@ -2065,8 +2065,8 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"ctl_dialog3")
                 .setLeft("31.238095238095237em")
                 .setTop("0.7619047619047619em")
-                .setWidth("36.666666666666664em")
-                .setHeight("21.916666666666668em")
+                .setWidth("29.02857142857143em")
+                .setHeight("21.18095238095238em")
                 .setCaption("Stop close")
                 .beforeClose([
                     {
@@ -2279,39 +2279,6 @@ xui.Class('App', 'xui.Module',{
                             "first"
                         ],
                         "method" : "removeItems"
-                    }
-                ])
-            );
-            
-            host.ctl_pane39.append(
-                xui.create("xui.UI.HTMLButton")
-                .setHost(host,"ctl_htmlbutton1473")
-                .setDesc("Remove Items  in Tabs")
-                .setLeft("59.166666666666664em")
-                .setTop("23.666666666666668em")
-                .setWidth("8.5em")
-                .setHeight("3em")
-                .setCaption("Select Tab")
-                .onClick([
-                    {
-                        "desc" : "action",
-                        "type" : "control",
-                        "target" : "ctl_tabs4",
-                        "method" : "fireItemClickEvent",
-                        "args" : [
-                            "c"
-                        ],
-                        "event" : 1
-                    },
-                    {
-                        "desc" : "action2",
-                        "type" : "control",
-                        "target" : "ctl_tabs4",
-                        "method" : "fireItemClickEvent",
-                        "timeout" : 1000,
-                        "args" : [
-                            "a"
-                        ]
                     }
                 ])
             );
