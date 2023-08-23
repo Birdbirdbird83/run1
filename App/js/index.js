@@ -288,7 +288,7 @@ xui.Class('App', 'xui.Module',{
                 .setWidth("28.333333333333332em")
                 .setHeight("4.75em")
                 .setOverflow("hidden")
-                .setCaption("URL")
+                .setCaption(" Projectors")
                 .setToggleBtn(false)
             );
             
@@ -300,7 +300,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("8.333333333333334em")
                 .setHeight("2.5em")
-                .setCaption("URL Test 1")
+                .setCaption("Projector Left")
                 .onClick([
                     {
                         "desc" : "self",
@@ -323,7 +323,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("8.333333333333334em")
                 .setHeight("2.5em")
-                .setCaption("URL Test 2")
+                .setCaption("Projector Central")
                 .onClick([
                     {
                         "desc" : "blank",
@@ -349,7 +349,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("8.333333333333334em")
                 .setHeight("2.5em")
-                .setCaption("Email Test")
+                .setCaption("Projector Right")
                 .onClick([
                     {
                         "desc" : "email",
@@ -441,7 +441,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("8.333333333333334em")
                 .setHeight("2.8333333333333335em")
-                .setCaption("Visual Run")
+                .setCaption("Visual running")
                 .onClick([
                     {
                         "desc" : "action",
@@ -467,7 +467,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("3.3333333333333335em")
                 .setWidth("8.333333333333334em")
                 .setHeight("2.5em")
-                .setCaption(" Run Avionics")
+                .setCaption("Avionics running")
                 .onClick([
                     {
                         "desc" : "wait",
@@ -634,7 +634,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("3.3333333333333335em")
                 .setWidth("8.333333333333334em")
                 .setHeight("3.3333333333333335em")
-                .setCaption("Destroy Control")
+                .setCaption("Stop Avionics")
                 .onClick([
                     {
                         "desc" : "dest",
@@ -654,7 +654,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("3.3333333333333335em")
                 .setWidth("8.333333333333334em")
                 .setHeight("3.3333333333333335em")
-                .setCaption("Show / Hide Control")
+                .setCaption("Start Avionics")
                 .onClick([
                     {
                         "desc" : "hide",
@@ -745,7 +745,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("3.3333333333333335em")
                 .setWidth("8.333333333333334em")
                 .setHeight("3.3333333333333335em")
-                .setCaption("Show Control to Container")
+                .setCaption("Stop Simulation")
                 .onClick([
                     {
                         "desc" : "con",
@@ -2113,7 +2113,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("23.666666666666668em")
                 .setWidth("8.5em")
                 .setHeight("3em")
-                .setCaption("Insert Items to Tabs")
+                .setCaption("Stop ALL")
                 .onClick([
                     {
                         "desc" : "first",
@@ -2222,7 +2222,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("23.666666666666668em")
                 .setWidth("8.5em")
                 .setHeight("3em")
-                .setCaption("Update Item in Tabs")
+                .setCaption("Start ALL")
                 .onClick([
                     {
                         "desc" : "a",
@@ -2260,7 +2260,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("23.666666666666668em")
                 .setWidth("8.5em")
                 .setHeight("3em")
-                .setCaption("Remove Items  in Tabs")
+                .setCaption("Power OFF PC's")
                 .onClick([
                     {
                         "desc" : "action",
