@@ -795,7 +795,8 @@ xui.Class('App', 'xui.Module',{
                         "params" : [ ],
                         "method" : "free",
                         "timeout" : 1000
-                    }
+                    },
+                    "_ctl_htmlbutton96_onclick"
                 ])
             );
             
@@ -2307,6 +2308,9 @@ xui.Class('App', 'xui.Module',{
                  "method":"message"
                 }
             ]
-        }
+        },
+            _ctl_htmlbutton96_onclick:function(e,i,o){
+                var ns = this, uictrl = profile.boxing();
+            }
     }
 });
