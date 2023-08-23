@@ -2283,6 +2283,14 @@ xui.Class('App', 'xui.Module',{
                 ])
             );
             
+            host.ctl_pane39.append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button5")
+                .setLeft("35.04761904761905em")
+                .setTop("28.952380952380953em")
+                .setCaption("Button")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
