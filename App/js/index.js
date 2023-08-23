@@ -71,7 +71,7 @@ xui.Class('App', 'xui.Module',{
                 .setItems([
                     {
                         "id" : "node1",
-                        "caption" : "node1",
+                        "caption" : "Visual PC",
                         "sub" : [
                             {
                                 "id" : "node11",
@@ -94,7 +94,7 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id" : "node2",
-                        "caption" : "node2",
+                        "caption" : "Avionics PC",
                         "sub" : [
                             {
                                 "id" : "a"
@@ -109,11 +109,11 @@ xui.Class('App', 'xui.Module',{
                     },
                     {
                         "id" : "node3",
-                        "caption" : "node3"
+                        "caption" : "X-Sys"
                     },
                     {
                         "id" : "node4",
-                        "caption" : "node4"
+                        "caption" : ""
                     }
                 ])
                 .setDock("left")
